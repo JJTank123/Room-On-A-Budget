@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Room Budget Designer</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="gameLayout">
+
+  <!-- ================= TOP BAR ================= -->
+  <header class="topBar">
+    💰 Budget Remaining:
+    <span id="budget">$2000</span>
+  </header>
+
+
+  <!-- ================= MAIN AREA ================= -->
+  <div class="mainArea">
+
+    <!-- ========= ROOM SECTION ========= -->
+    <div class="roomSection">
+
+      <div id="roomCanvas">
+        <!-- Room background -->
+        <img src="Images/empty_room_1_2.png" id="roomImage">
+        <!-- Furniture gets added here dynamically -->
+      </div>
+
+    </div>
+
+
+    <!-- ========= SHOP PANEL ========= -->
+    <div class="shopSection">
+
+      <h2>Choose Furniture</h2>
+
+      <!-- Category Buttons -->
+      <div class="categoryPanel">
+        <button class="category" data-type="couch">Couches</button>
+        <button class="category" data-type="table">Tables</button>
+        <button class="category" data-type="Lighting">Lighting</button>
+        <button class="category" data-type="entertainment">Entertainment</button>
+        <button class="category" data-type="rugs">Rugs</button>
+        <button class="category" data-type="paintings">Paintings</button>
+
+
+      </div>
+
+      <!-- Item Choices -->
+      <div id="itemOptions"></div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="changeView">Change View</button>
+        <button id="finishRoom">Finish Room</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
