@@ -39,7 +39,7 @@ let selectedItems = {
 const furnitureData = {
   couch: {
     Basic: [
-      { name:"Basic Couch 1", price:500, img:"Images/Basic/Couch/basic_couch1.png",
+      { name:"Basic Couch 1", price:500, img:"/Basic/Couch/basic_couch1.png",
         flippedImg:"Images/Basic/Couch/basic_couch1-f.png",
         rearImg:"Images/Basic/Couch/basic_couch1_back.png",
         rearImgF:"Images/Basic/Couch/basic_couch1_back-f.png",
