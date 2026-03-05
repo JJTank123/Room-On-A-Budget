@@ -43,16 +43,16 @@ const furnitureData = {
         rearImgF:"Basic/Couch/basic_couch1_back-f.png",
         width:300
       },
-      { name:"Basic Couch 2", price:500, img:"Images/Basic/Couch/basic_couch2.png",
-        flippedImg:"Images/Basic/Couch/basic_couch2-f.png",
-        rearImg:"Images/Basic/Couch/basic_couch2_back.png",
-        rearImgF:"Images/Basic/Couch/basic_couch2_back-f.png",
+      { name:"Basic Couch 2", price:500, img:"Basic/Couch/basic_couch2.png",
+        flippedImg:"Basic/Couch/basic_couch2-f.png",
+        rearImg:"Basic/Couch/basic_couch2_back.png",
+        rearImgF:"Basic/Couch/basic_couch2_back-f.png",
         width:250
       },
-      { name:"Basic Couch 3", price:500, img:"Images/Basic/Couch/basic_couch3.png",
-        flippedImg:"Images/Basic/Couch/basic_couch3-f.png",
-        rearImg:"Images/Basic/Couch/basic_couch3_back.png",
-        rearImgF:"Images/Basic/Couch/basic_couch3_back-f.png",
+      { name:"Basic Couch 3", price:500, img:"Basic/Couch/basic_couch3.png",
+        flippedImg:"Basic/Couch/basic_couch3-f.png",
+        rearImg:"Basic/Couch/basic_couch3_back.png",
+        rearImgF:"Basic/Couch/basic_couch3_back-f.png",
         width:250
       }
   
