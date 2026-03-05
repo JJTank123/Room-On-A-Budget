@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Room On A Budget</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class = "start-screen">
+        <div class = "slides-container">
+            <div class = "slide" id = "slide0">
+                <img src = "cartoon-couch.png" alt = "person">
+                <p>Welcome</p>
+            </div>
+
+            <div class = "slide" id = "slide1">
+                <img src = "cartoon-couch.png" alt = "person">
+                <p> Directions 1</p>
+            </div>
+
+
+         <div class = "slide-controls" >
+            <button id = "prevBtn">Previous</button>
+            <button id = "nextBtn">Next</button>
+        </div>
+
+    </div>
+
+
+    <script>
+   let currentSlide = 0;
+const totalSlides = document.querySelectorAll('.slide').length;
+    function showSlide(index) {
+      for (let i = 0; i < totalSlides; i++) {
+            const slide = document.getElementById(`slide${i}`);
+            slide.classList.remove("active");
+            slide.style.display = 'none';      }
+const activeSlide = document.getElementById(`slide${index}`);
+activeSlide.style.display = 'flex';
+
+setTimeout(() => {
+  activeSlide.classList.add("active");
+}, 10);    document.getElementById('prevBtn').style.display = index === 0 ? 'none' : 'inline-block';
+
+    }
+
+    document.getElementById('nextBtn').onclick = () => {
+      currentSlide++;
+      if (currentSlide < totalSlides) {
+        showSlide(currentSlide);
+      } else {
+        window.location.href = 'dice.html';
+      }
+
+    }
+
+    document.getElementById('prevBtn').onclick = () => {
+  if (currentSlide > 0) {
+    currentSlide--;
+    showSlide(currentSlide);
+  }
+}
+
+
+    showSlide(currentSlide);
+ 
+    </script>
+
+
+    </body>
+</html>
