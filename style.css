@@ -22,6 +22,8 @@ body {
 
 /* ================= TOP BAR ================= */
 .topBar {
+   background:#222
+      color: white
   display: flex;
   align-items: center;
   justify-content: space-between;
