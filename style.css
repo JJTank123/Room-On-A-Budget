@@ -21,18 +21,16 @@ body {
 
 
 /* ================= TOP BAR ================= */
-
 .topBar {
-  background: #222;
-  color: white;
-
-  padding: 5px 10px;
-  font-size: 14px;
-  font-weight: bold;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px; /* optional, adds space between sections */
+}
+
+.topButtons {
+  display: flex;
+  gap: 10px;
 }
 
 
