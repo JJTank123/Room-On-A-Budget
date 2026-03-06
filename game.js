@@ -62,45 +62,45 @@ let selectedItems = {
 const furnitureData = {
   couch: {
     Basic: [
-      { name:"Basic Couch 1", price:500, img:"Images/Basic/Couch/basic_couch1.png",
-        flippedImg:"Images/Basic/Couch/basic_couch1-f.png",
-        rearImg:"Images/Basic/Couch/basic_couch1_back.png",
-        rearImgF:"Images/Basic/Couch/basic_couch1_back-f.png",
+      { name:"Basic Couch 1", price:500, img:"Basic/Couch/basic_couch1.png",
+        flippedImg:"Basic/Couch/basic_couch1-f.png",
+        rearImg:"Basic/Couch/basic_couch1_back.png",
+        rearImgF:"Basic/Couch/basic_couch1_back-f.png",
         width:300
       },
-      { name:"Basic Couch 2", price:500, img:"Images/Basic/Couch/basic_couch2.png",
-        flippedImg:"Images/Basic/Couch/basic_couch2-f.png",
-        rearImg:"Images/Basic/Couch/basic_couch2_back.png",
-        rearImgF:"Images/Basic/Couch/basic_couch2_back-f.png",
+      { name:"Basic Couch 2", price:500, img:"Basic/Couch/basic_couch2.png",
+        flippedImg:"Basic/Couch/basic_couch2-f.png",
+        rearImg:"Basic/Couch/basic_couch2_back.png",
+        rearImgF:"Basic/Couch/basic_couch2_back-f.png",
         width:250
       },
-      { name:"Basic Couch 3", price:500, img:"Images/Basic/Couch/basic_couch3.png",
-        flippedImg:"Images/Basic/Couch/basic_couch3-f.png",
-        rearImg:"Images/Basic/Couch/basic_couch3_back.png",
-        rearImgF:"Images/Basic/Couch/basic_couch3_back-f.png",
+      { name:"Basic Couch 3", price:500, img:"Basic/Couch/basic_couch3.png",
+        flippedImg:"Basic/Couch/basic_couch3-f.png",
+        rearImg:"Basic/Couch/basic_couch3_back.png",
+        rearImgF:"Basic/Couch/basic_couch3_back-f.png",
         width:250
       }
   
     ],
 
     Standard: [
-      { name:"Standard Couch 1", price:900, img:"Images/Standard/Couch/Standard_couch1.png",
-        flippedImg:"Images/Standard/Couch/Standard_couch1-f.png",
-        rearImg:"Images/Standard/Couch/Standard_couch1_back.png",
-        rearImgF:"Images/Standard/Couch/Standard_couch1_back-f.png",
+      { name:"Standard Couch 1", price:900, img:"Standard/Couch/Standard_couch1.png",
+        flippedImg:"Standard/Couch/Standard_couch1-f.png",
+        rearImg:"Standard/Couch/Standard_couch1_back.png",
+        rearImgF:"Standard/Couch/Standard_couch1_back-f.png",
         width:250
       },
 
-        { name:"Standard Couch 2", price:900, img:"Images/Standard/Couch/Standard_couch2.png",
-        flippedImg:"Images/Standard/Couch/Standard_couch2-f.png",
-        rearImg:"Images/Standard/Couch/Standard_couch2_back.png",
-        rearImgF:"Images/Standard/Couch/Standard_couch2_back-f.png",
+        { name:"Standard Couch 2", price:900, img:"Standard/Couch/Standard_couch2.png",
+        flippedImg:"Standard/Couch/Standard_couch2-f.png",
+        rearImg:"Standard/Couch/Standard_couch2_back.png",
+        rearImgF:"Standard/Couch/Standard_couch2_back-f.png",
         width:250
       },
-      { name:"Standard Couch 3", price:900, img:"Images/Standard/Couch/Standard_couch3.png",
-        flippedImg:"Images/Standard/Couch/Standardcouch3-f.png",
-        rearImg:"Images/Standard/Couch/Standard_couch3_back.png",
-        rearImgF:"Images/Standard/Couch/Standard_couch3_back-f.png",
+      { name:"Standard Couch 3", price:900, img:"Standard/Couch/Standard_couch3.png",
+        flippedImg:"Standard/Couch/Standardcouch3-f.png",
+        rearImg:"Standard/Couch/Standard_couch3_back.png",
+        rearImgF:"Standard/Couch/Standard_couch3_back-f.png",
         width:250
       },
 
@@ -108,24 +108,24 @@ const furnitureData = {
     ],
 
     Luxury: [
-      { name:"Luxury Couch 1", price:1600, img:"Images/Luxury/Couch/luxury_couch1.png",
-        flippedImg:"Images/Luxury/Couch/luxury_couch1-f.png",
-        rearImg: "Images/Luxury/Couch/luxury_couch1_back.png",
-        rearImgF: "Images/Luxury/Couch/luxury_couch1_back-f.png",
+      { name:"Luxury Couch 1", price:1600, img:"Luxury/Couch/luxury_couch1.png",
+        flippedImg:"Luxury/Couch/luxury_couch1-f.png",
+        rearImg: "Luxury/Couch/luxury_couch1_back.png",
+        rearImgF: "Luxury/Couch/luxury_couch1_back-f.png",
         width:300
       },
 
-      { name:"Luxury Couch 2", price:1600, img:"Images/Luxury/Couch/luxury_couch2.png",
-        flippedImg:"Images/Luxury/Couch/luxury_couch2-f.png",
-        rearImg: "Images/Luxury/Couch/luxury_couch2_back.png",
-        rearImgF: "Images/Luxury/Couch/luxury_couch2_back-f.png",
+      { name:"Luxury Couch 2", price:1600, img:"Luxury/Couch/luxury_couch2.png",
+        flippedImg:"Luxury/Couch/luxury_couch2-f.png",
+        rearImg: "Luxury/Couch/luxury_couch2_back.png",
+        rearImgF: "Luxury/Couch/luxury_couch2_back-f.png",
         width:300
       },
 
-      { name:"Luxury Couch 3", price:1600, img:"Images/Luxury/Couch/luxury_couch3.png",
-        flippedImg:"Images/Luxury/Couch/luxury_couch3-f.png",
-        rearImg: "Images/Luxury/Couch/luxury_couch3_back.png",
-        rearImgF: "Images/Luxury/Couch/luxury_couch3_back-f.png",
+      { name:"Luxury Couch 3", price:1600, img:"Luxury/Couch/luxury_couch3.png",
+        flippedImg:"Luxury/Couch/luxury_couch3-f.png",
+        rearImg: "Luxury/Couch/luxury_couch3_back.png",
+        rearImgF: "Luxury/Couch/luxury_couch3_back-f.png",
         width:350
       },
     ]
@@ -133,69 +133,69 @@ const furnitureData = {
 
   table: {
     Basic: [
-      { name:"Basic Table 1", price: 200, img:"Images/Basic/Table/basic_table1.png",
-        flippedImg:"Images/Basic/Table/basic_table1-f.png",
-        rearImg: "Images/Basic/Table/basic_table1.png",
-        rearImgF: "Images/Basic/Table/basic_table1-f.png",
+      { name:"Basic Table 1", price: 200, img:"Basic/Table/basic_table1.png",
+        flippedImg:"Basic/Table/basic_table1-f.png",
+        rearImg: "Basic/Table/basic_table1.png",
+        rearImgF: "Basic/Table/basic_table1-f.png",
         width: 200
       },
 
-      { name:"Basic Table 2", price: 200, img:"Images/Basic/Table/basic_table2.png",
-        flippedImg:"Images/Basic/Table/basic_table2-f.png",
-        rearImg: "Images/Basic/Table/basic_table2.png",
-        rearImgF: "Images/Basic/Table/basic_table2-f.png",
+      { name:"Basic Table 2", price: 200, img:"Basic/Table/basic_table2.png",
+        flippedImg:"Basic/Table/basic_table2-f.png",
+        rearImg: "Basic/Table/basic_table2.png",
+        rearImgF: "Basic/Table/basic_table2-f.png",
         width: 150
       },
 
-      { name:"Basic Table 3", price: 200, img:"Images/Basic/Table/basic_table3.png",
-        flippedImg:"Images/Basic/Table/basic_table3-f.png",
-        rearImg: "Images/Basic/Table/basic_table3.png",
-        rearImgF: "Images/Basic/Table/basic_table3-f.png",
+      { name:"Basic Table 3", price: 200, img:"Basic/Table/basic_table3.png",
+        flippedImg:"Basic/Table/basic_table3-f.png",
+        rearImg: "Basic/Table/basic_table3.png",
+        rearImgF: "Basic/Table/basic_table3-f.png",
         width: 200
       }
     ],
 
     Standard: [
-      {name:"Standard Table 1", price: 400, img:"Images/Standard/Table/Standard_table1.png",
-        flippedImg: "Images/Standard/Table/Standard_table1-f.png",
-        rearImg:"Images/Standard/Table/Standard_table1.png",
-        rearImgF:"Images/Standard/Table/Standard_table1-f.png",
+      {name:"Standard Table 1", price: 400, img:"Standard/Table/Standard_table1.png",
+        flippedImg: "Standard/Table/Standard_table1-f.png",
+        rearImg:"Standard/Table/Standard_table1.png",
+        rearImgF:"Standard/Table/Standard_table1-f.png",
         width: 200
       },
-      {name:"Standard Table 1", price: 400, img:"Images/Standard/Table/Standard_table2.png",
-        flippedImg: "Images/Standard/Table/Standard_table2-f.png",
-        rearImg:"Images/Standard/Table/Standard_table2.png",
-        rearImgF:"Images/Standard/Table/Standard_table2-f.png",
+      {name:"Standard Table 1", price: 400, img:"Standard/Table/Standard_table2.png",
+        flippedImg: "Standard/Table/Standard_table2-f.png",
+        rearImg:"Standard/Table/Standard_table2.png",
+        rearImgF:"Standard/Table/Standard_table2-f.png",
         width: 200
       },
 
-      {name:"Standard Table 3", price: 400, img:"Images/Standard/Table/Standard_table3.png",
-        flippedImg: "Images/Standard/Table/Standard_table3-f.png",
-        rearImg:"Images/Standard/Table/Standard_table3.png",
-        rearImgF:"Images/Standard/Table/Standard_table3-f.png",
+      {name:"Standard Table 3", price: 400, img:"Standard/Table/Standard_table3.png",
+        flippedImg: "Standard/Table/Standard_table3-f.png",
+        rearImg:"Standard/Table/Standard_table3.png",
+        rearImgF:"Standard/Table/Standard_table3-f.png",
         width: 200
       },
     ],
 
     Luxury: [
-      {name:"Standard Table 1", price: 750, img:"Images/Luxury/Table/luxury_table1.png",
-        flippedImg: "Images/Luxury/Table/luxury_table1-f.png",
-        rearImg:"Images/Luxury/Table/luxury_table1.png",
-        rearImgF:"Images/Luxury/Table/luxury_table1-f.png",
+      {name:"Standard Table 1", price: 750, img:"Luxury/Table/luxury_table1.png",
+        flippedImg: "Luxury/Table/luxury_table1-f.png",
+        rearImg:"Luxury/Table/luxury_table1.png",
+        rearImgF:"Luxury/Table/luxury_table1-f.png",
         width: 200
       },
 
-      {name:"Standard Table 2", price: 750, img:"Images/Luxury/Table/luxury_table2.png",
-        flippedImg: "Images/Luxury/Table/luxury_table2-f.png",
-        rearImg:"Images/Luxury/Table/luxury_table2.png",
-        rearImgF:"Images/Luxury/Table/luxury_table2-f.png",
+      {name:"Standard Table 2", price: 750, img:"Luxury/Table/luxury_table2.png",
+        flippedImg: "Luxury/Table/luxury_table2-f.png",
+        rearImg:"Luxury/Table/luxury_table2.png",
+        rearImgF:"Luxury/Table/luxury_table2-f.png",
         width: 200
       },
 
-      {name:"Standard Table 3", price: 750, img:"Images/Luxury/Table/luxury_table3.png",
-        flippedImg: "Images/Luxury/Table/luxury_table3-f.png",
-        rearImg:"Images/Luxury/Table/luxury_table3.png",
-        rearImgF:"Images/Luxury/Table/luxury_table3-f.png",
+      {name:"Standard Table 3", price: 750, img:"Luxury/Table/luxury_table3.png",
+        flippedImg: "Luxury/Table/luxury_table3-f.png",
+        rearImg:"Luxury/Table/luxury_table3.png",
+        rearImgF:"Luxury/Table/luxury_table3-f.png",
         width: 200
       },      
     ]
@@ -204,48 +204,48 @@ const furnitureData = {
 
   entertainment: {
     Basic: [
-      {name:"Basic Entertainment System 1", price:350, img: "Images/Basic/Entertainment/basic_entertainment1.png",
-      flippedImg: "Images/Basic/Entertainment/basic_entertainment1-f.png",
-      rearImg: "Images/Basic/Entertainment/basic_entertainment1.png",
-      rearImgF: "Images/Basic/Entertainment/basic_entertainment1-f.png",
+      {name:"Basic Entertainment System 1", price:350, img: "Basic/Entertainment/basic_entertainment1.png",
+      flippedImg: "Basic/Entertainment/basic_entertainment1-f.png",
+      rearImg: "Basic/Entertainment/basic_entertainment1.png",
+      rearImgF: "Basic/Entertainment/basic_entertainment1-f.png",
       width: 200
     },
 
-      {name: "Basic Entertainment System 2", price:350, img: "Images/Basic/Entertainment/basic_entertainment2.png",
-      flippedImg: "Images/Basic/Entertainment/basic_entertainment2-f.png",
-      rearImg: "Images/Basic/Entertainment/basic_entertainment2.png",
-      rearImgF: "Images/Basic/Entertainment/basic_entertainment2-f.png",
+      {name: "Basic Entertainment System 2", price:350, img: "Basic/Entertainment/basic_entertainment2.png",
+      flippedImg: "Basic/Entertainment/basic_entertainment2-f.png",
+      rearImg: "Basic/Entertainment/basic_entertainment2.png",
+      rearImgF: "Basic/Entertainment/basic_entertainment2-f.png",
       width: 200
       },
 
-      {name: "Basic Entertainment System 3", price:350, img: "Images/Basic/Entertainment/basic_entertainment3.png",
-      flippedImg: "Images/Basic/Entertainment/basic_entertainment3-f.png",
-      rearImg: "Images/Basic/Entertainment/basic_entertainment3.png",
-      rearImgF: "Images/Basic/Entertainment/basic_entertainment3-f.png",
+      {name: "Basic Entertainment System 3", price:350, img: "Basic/Entertainment/basic_entertainment3.png",
+      flippedImg: "Basic/Entertainment/basic_entertainment3-f.png",
+      rearImg: "Basic/Entertainment/basic_entertainment3.png",
+      rearImgF: "Basic/Entertainment/basic_entertainment3-f.png",
       width: 200
       }  
       
     ],
 
     Standard: [
-      {name:"Standard Entertainment System 1", price:650, img: "Images/Standard/Entertainment/Standard_entertainment1.png",
-        flippedImg: "Images/Standard/Entertainment/Standard_entertainment1-f.png",
-        rearImg: "Images/Standard/Entertainment/Standard_entertainment1.png",
-        rearImgF: "Images/Standard/Entertainment/Standard_entertainment1-f.png",
+      {name:"Standard Entertainment System 1", price:650, img: "Standard/Entertainment/Standard_entertainment1.png",
+        flippedImg: "Standard/Entertainment/Standard_entertainment1-f.png",
+        rearImg: "Standard/Entertainment/Standard_entertainment1.png",
+        rearImgF: "Standard/Entertainment/Standard_entertainment1-f.png",
         width: 200
       },
 
-      {name:"Standard Entertainment System 2", price:650, img: "Images/Standard/Entertainment/Standard_entertainment2.png",
-        flippedImg: "Images/Standard/Entertainment/Standard_entertainment2-f.png",
-        rearImg: "Images/Standard/Entertainment/Standard_entertainment2.png",
-        rearImgF: "Images/Standard/Entertainment/Standard_entertainment2-f.png",
+      {name:"Standard Entertainment System 2", price:650, img: "Standard/Entertainment/Standard_entertainment2.png",
+        flippedImg: "Standard/Entertainment/Standard_entertainment2-f.png",
+        rearImg: "Standard/Entertainment/Standard_entertainment2.png",
+        rearImgF: "Standard/Entertainment/Standard_entertainment2-f.png",
         width: 250
       },
 
-      {name:"Standard Entertainment System 2", price:650, img: "Images/Standard/Entertainment/Standard_entertainment3.png",
-        flippedImg: "Images/Standard/Entertainment/Standard_entertainment3-f.png",
-        rearImg: "Images/Standard/Entertainment/Standard_entertainment3.png",
-        rearImgF: "Images/Standard/Entertainment/Standard_entertainment3-f.png",
+      {name:"Standard Entertainment System 2", price:650, img: "Standard/Entertainment/Standard_entertainment3.png",
+        flippedImg: "Standard/Entertainment/Standard_entertainment3-f.png",
+        rearImg: "Standard/Entertainment/Standard_entertainment3.png",
+        rearImgF: "Standard/Entertainment/Standard_entertainment3-f.png",
         width: 250
 
       }
@@ -253,23 +253,23 @@ const furnitureData = {
     ],
 
     Luxury: [
-      {name:"Luxury Entertainment System 1", price:1200, img:"Images/Luxury/Entertainment/luxury_entertainment1.png",
-      flippedImg:"Images/Luxury/Entertainment/luxury_entertainment1-f.png",
-      rearImg: "Images/Luxury/Entertainment/luxury_entertainment1.png",
-      rearImgF: "Images/Luxury/Entertainment/luxury_entertainment1-f.png",
+      {name:"Luxury Entertainment System 1", price:1200, img:"Luxury/Entertainment/luxury_entertainment1.png",
+      flippedImg:"Luxury/Entertainment/luxury_entertainment1-f.png",
+      rearImg: "Luxury/Entertainment/luxury_entertainment1.png",
+      rearImgF: "Luxury/Entertainment/luxury_entertainment1-f.png",
       width:300
     },
-      {name:"Luxury Entertainment System 2", price:1200, img:"Images/Luxury/Entertainment/luxury_entertainment2.png",
-      flippedImg: "Images/Luxury/Entertainment/luxury_entertainment2-f.png",
-      rearImg: "Images/Luxury/Entertainment/luxury_entertainment2.png",
-      rearImgF: "Images/Luxury/Entertainment/luxury_entertainment2-f.png",
+      {name:"Luxury Entertainment System 2", price:1200, img:"Luxury/Entertainment/luxury_entertainment2.png",
+      flippedImg: "Luxury/Entertainment/luxury_entertainment2-f.png",
+      rearImg: "Luxury/Entertainment/luxury_entertainment2.png",
+      rearImgF: "Luxury/Entertainment/luxury_entertainment2-f.png",
       width:300
     },
 
-      {name:"Luxury Entertainment System 3", price:1200, img:"Images/Luxury/Entertainment/luxury_entertainment3.png",
-      flippedImg: "Images/Luxury/Entertainment/luxury_entertainment3-f.png",
-      rearImg: "Images/Luxury/Entertainment/luxury_entertainment3.png",
-      rearImgF: "Images/Luxury/Entertainment/luxury_entertainment3-f.png",
+      {name:"Luxury Entertainment System 3", price:1200, img:"Luxury/Entertainment/luxury_entertainment3.png",
+      flippedImg: "Luxury/Entertainment/luxury_entertainment3-f.png",
+      rearImg: "Luxury/Entertainment/luxury_entertainment3.png",
+      rearImgF: "Luxury/Entertainment/luxury_entertainment3-f.png",
       width:300
     },
 
@@ -278,68 +278,68 @@ const furnitureData = {
 
   Lighting: {
     Basic: [
-      {name:"Basic Lighting 1", price:120, img:"Images/Basic/Lighting/basic_lighting1.png",
-        flippedImg: "Images/Basic/Lighting/basic_lighting1-f.png",
-        rearImg:"Images/Basic/Lighting/basic_lighting1.png",
-        rearImgF:"Images/Basic/Lighting/basic_lighting1-f.png",
+      {name:"Basic Lighting 1", price:120, img:"Basic/Lighting/basic_lighting1.png",
+        flippedImg: "Basic/Lighting/basic_lighting1-f.png",
+        rearImg:"Basic/Lighting/basic_lighting1.png",
+        rearImgF:"Basic/Lighting/basic_lighting1-f.png",
         width:150
       },
-      {name:"Basic Lighting 2", price: 120, img:"Images/Basic/Lighting/basic_lighting2.png",
-        flippedImg:"Images/Basic/Lighting/basic_lighting2.png",
-        rearImg:"Images/Basic/Lighting/basic_lighting2.png",
-        rearImgF: "Images/Basic/Lighting/basic_lighting2.png",
+      {name:"Basic Lighting 2", price: 120, img:"Basic/Lighting/basic_lighting2.png",
+        flippedImg:"Basic/Lighting/basic_lighting2.png",
+        rearImg:"Basic/Lighting/basic_lighting2.png",
+        rearImgF: "Basic/Lighting/basic_lighting2.png",
         width: 150
       },
-        {name:"Basic Lighting 3", price: 120, img:"Images/Basic/Lighting/basic_lighting3.png",
-        flippedImg:"Images/Basic/Lighting/basic_lighting3.png",
-        rearImg:"Images/Basic/Lighting/basic_lighting3.png",
-        rearImgF: "Images/Basic/Lighting/basic_lighting3.png",
+        {name:"Basic Lighting 3", price: 120, img:"Basic/Lighting/basic_lighting3.png",
+        flippedImg:"Basic/Lighting/basic_lighting3.png",
+        rearImg:"Basic/Lighting/basic_lighting3.png",
+        rearImgF: "Basic/Lighting/basic_lighting3.png",
         width: 150
       }
     ],
 
     Standard: [
-      {name:"Standard Lighting 1", price: 250, img:"Images/Standard/Lighting/Standard_Lighting1.png",
-        flippedImg: "Images/Standard/Lighting/Standard_Lighting1-f.png",
-        rearImg: "Images/Standard/Lighting/Standard_Lighting1.png",
-        rearImgF: "Images/Standard/Lighting/Standard_Lighting1-f.png",
+      {name:"Standard Lighting 1", price: 250, img:"Standard/Lighting/Standard_Lighting1.png",
+        flippedImg: "Standard/Lighting/Standard_Lighting1-f.png",
+        rearImg: "Standard/Lighting/Standard_Lighting1.png",
+        rearImgF: "Standard/Lighting/Standard_Lighting1-f.png",
         width:150
       },
 
-      {name:"Standard Lighting 2", price: 250, img:"Images/Standard/Lighting/Standard_Lighting2.png",
-        flippedImg: "Images/Standard/Lighting/Standard_Lighting2-f.png",
-        rearImg: "Images/Standard/Lighting/Standard_Lighting2.png",
-        rearImgF: "Images/Standard/Lighting/Standard_Lighting2-f.png",
+      {name:"Standard Lighting 2", price: 250, img:"Standard/Lighting/Standard_Lighting2.png",
+        flippedImg: "Standard/Lighting/Standard_Lighting2-f.png",
+        rearImg: "Standard/Lighting/Standard_Lighting2.png",
+        rearImgF: "Standard/Lighting/Standard_Lighting2-f.png",
         width:150
       },
 
-      {name:"Standard Lighting 3", price: 250, img:"Images/Standard/Lighting/Standard_Lighting3.png",
-        flippedImg: "Images/Standard/Lighting/Standard_Lighting3.png",
-        rearImg: "Images/Standard/Lighting/Standard_Lighting3.png",
-        rearImgF: "Images/Standard/Lighting/Standard_Lighting3.png",
+      {name:"Standard Lighting 3", price: 250, img:"Standard/Lighting/Standard_Lighting3.png",
+        flippedImg: "Standard/Lighting/Standard_Lighting3.png",
+        rearImg: "Standard/Lighting/Standard_Lighting3.png",
+        rearImgF: "Standard/Lighting/Standard_Lighting3.png",
         width:150
       }      
 
     ],
 
     Luxury: [
-      {name:"Luxury Lighting 1", price:500, img:"Images/Luxury/Lighting/luxury_lighting1.png",
-      flippedImg: "Images/Luxury/Lighting/luxury_lighting1-f.png",
-      rearImg: "Images/Luxury/Lighting/luxury_lighting1.png",
-      rearImgF: "Images/Luxury/Lighting/luxury_lighting1-f.png",
+      {name:"Luxury Lighting 1", price:500, img:"Luxury/Lighting/luxury_lighting1.png",
+      flippedImg: "Luxury/Lighting/luxury_lighting1-f.png",
+      rearImg: "Luxury/Lighting/luxury_lighting1.png",
+      rearImgF: "Luxury/Lighting/luxury_lighting1-f.png",
       width:150
       },
-      {name:"Luxury Lighting 2", price:500, img:"Images/Luxury/Lighting/luxury_lighting2.png",
-      flippedImg: "Images/Luxury/Lighting/luxury_lighting2.png",
-      rearImg: "Images/Luxury/Lighting/luxury_lighting2.png",
-      rearImgF: "Images/Luxury/Lighting/luxury_lighting2.png",
+      {name:"Luxury Lighting 2", price:500, img:"Luxury/Lighting/luxury_lighting2.png",
+      flippedImg: "Luxury/Lighting/luxury_lighting2.png",
+      rearImg: "Luxury/Lighting/luxury_lighting2.png",
+      rearImgF: "Luxury/Lighting/luxury_lighting2.png",
       width:150
       },
 
-      {name:"Luxury Lighting 3", price:500, img:"Images/Luxury/Lighting/luxury_lighting3.png",
-      flippedImg: "Images/Luxury/Lighting/luxury_lighting3.png",
-      rearImg: "Images/Luxury/Lighting/luxury_lighting3.png",
-      rearImgF: "Images/Luxury/Lighting/luxury_lighting3.png",
+      {name:"Luxury Lighting 3", price:500, img:"Luxury/Lighting/luxury_lighting3.png",
+      flippedImg: "Luxury/Lighting/luxury_lighting3.png",
+      rearImg: "Luxury/Lighting/luxury_lighting3.png",
+      rearImgF: "Luxury/Lighting/luxury_lighting3.png",
       width:150
       }
     ]
@@ -347,24 +347,24 @@ const furnitureData = {
 
   rugs: {
     Basic: [
-      {name:"Basic Rug 1", price:150, img:"Images/Basic/Carpet/basic_carpet1.png",
-      flippedImg: "Images/Basic/Carpet/basic_carpet1.png",
-      rearImg: "Images/Basic/Carpet/basic_carpet1.png",
-      rearImgF: "Images/Basic/Carpet/basic_carpet1.png",
+      {name:"Basic Rug 1", price:150, img:"Basic/Carpet/basic_carpet1.png",
+      flippedImg: "Basic/Carpet/basic_carpet1.png",
+      rearImg: "Basic/Carpet/basic_carpet1.png",
+      rearImgF: "Basic/Carpet/basic_carpet1.png",
       width:300
       },
 
-      {name:"Basic Rug 2", price:150, img:"Images/Basic/Carpet/basic_carpet2.png",
-      flippedImg: "Images/Basic/Carpet/basic_carpet2-f.png",
-      rearImg: "Images/Basic/Carpet/basic_carpet2.png",
-      rearImgF: "Images/Basic/Carpet/basic_carpet2-f.png",
+      {name:"Basic Rug 2", price:150, img:"Basic/Carpet/basic_carpet2.png",
+      flippedImg: "Basic/Carpet/basic_carpet2-f.png",
+      rearImg: "Basic/Carpet/basic_carpet2.png",
+      rearImgF: "Basic/Carpet/basic_carpet2-f.png",
       width:300        
       },
 
-      {name:"Basic Rug 3", price:150, img:"Images/Basic/Carpet/basic_carpet3.png",
-      flippedImg: "Images/Basic/Carpet/basic_carpet3-f.png",
-      rearImg: "Images/Basic/Carpet/basic_carpet3.png",
-      rearImgF: "Images/Basic/Carpet/basic_carpet3-f.png",
+      {name:"Basic Rug 3", price:150, img:"Basic/Carpet/basic_carpet3.png",
+      flippedImg: "Basic/Carpet/basic_carpet3-f.png",
+      rearImg: "Basic/Carpet/basic_carpet3.png",
+      rearImgF: "Basic/Carpet/basic_carpet3-f.png",
       width:300 
 
       }
@@ -373,44 +373,44 @@ const furnitureData = {
     ],
 
     Standard: [
-      {name:"Standard Rug 1", price:300, img:"Images/Standard/Carpet/Standard_carpet1.png",
-      flippedImg: "Images/Standard/Carpet/Standard_carpet1.png",
-      rearImg: "Images/Standard/Carpet/Standard_carpet1.png",
-      rearImgF: "Images/Standard/Carpet/Standard_carpet1.png",
+      {name:"Standard Rug 1", price:300, img:"Standard/Carpet/Standard_carpet1.png",
+      flippedImg: "Standard/Carpet/Standard_carpet1.png",
+      rearImg: "Standard/Carpet/Standard_carpet1.png",
+      rearImgF: "Standard/Carpet/Standard_carpet1.png",
       width:350
       },
-      {name:"Standard Rug 2", price:300, img:"Images/Standard/Carpet/Standard_carpet2.png",
-      flippedImg: "Images/Standard/Carpet/Standard_carpet2-f.png",
-      rearImg: "Images/Standard/Carpet/Standard_carpet2.png",
-      rearImgF: "Images/Standard/Carpet/Standard_carpet2-f.png",
+      {name:"Standard Rug 2", price:300, img:"Standard/Carpet/Standard_carpet2.png",
+      flippedImg: "Standard/Carpet/Standard_carpet2-f.png",
+      rearImg: "Standard/Carpet/Standard_carpet2.png",
+      rearImgF: "Standard/Carpet/Standard_carpet2-f.png",
       width:400
       },
-      {name:"Standard Rug 3", price:300, img:"Images/Standard/Carpet/Standard_carpet3.png",
-      flippedImg: "Images/Standard/Carpet/Standard_carpet3-f.png",
-      rearImg: "Images/Standard/Carpet/Standard_carpet3.png",
-      rearImgF: "Images/Standard/Carpet/Standard_carpet3-f.png",
+      {name:"Standard Rug 3", price:300, img:"Standard/Carpet/Standard_carpet3.png",
+      flippedImg: "Standard/Carpet/Standard_carpet3-f.png",
+      rearImg: "Standard/Carpet/Standard_carpet3.png",
+      rearImgF: "Standard/Carpet/Standard_carpet3-f.png",
       width:400
       }
 
     ],
 
     Luxury: [
-      {name:"Luxury Rug 1", price:600, img:"Images/Luxury/Carpet/luxury_carpet1.png",
-      flippedImg: "Images/Luxury/Carpet/luxury_carpet1-f.png",
-      rearImg:"Images/Luxury/Carpet/luxury_carpet1.png",
-      rearImgF:"Images/Luxury/Carpet/luxury_carpet1-f.png",
+      {name:"Luxury Rug 1", price:600, img:"Luxury/Carpet/luxury_carpet1.png",
+      flippedImg: "Luxury/Carpet/luxury_carpet1-f.png",
+      rearImg:"Luxury/Carpet/luxury_carpet1.png",
+      rearImgF:"Luxury/Carpet/luxury_carpet1-f.png",
       width:400
       },
-      {name:"Luxury Rug 2", price:600, img:"Images/Luxury/Carpet/luxury_carpet2.png",
-      flippedImg: "Images/Luxury/Carpet/luxury_carpet2-f.png",
-      rearImg:"Images/Luxury/Carpet/luxury_carpet2.png",
-      rearImgF:"Images/Luxury/Carpet/luxury_carpet2-f.png",
+      {name:"Luxury Rug 2", price:600, img:"Luxury/Carpet/luxury_carpet2.png",
+      flippedImg: "Luxury/Carpet/luxury_carpet2-f.png",
+      rearImg:"Luxury/Carpet/luxury_carpet2.png",
+      rearImgF:"Luxury/Carpet/luxury_carpet2-f.png",
       width:400
       },
-      {name:"Luxury Rug 3", price:600, img:"Images/Luxury/Carpet/luxury_carpet3.png",
-      flippedImg: "Images/Luxury/Carpet/luxury_carpet3.png",
-      rearImg:"Images/Luxury/Carpet/luxury_carpet3.png",
-      rearImgF:"Images/Luxury/Carpet/luxury_carpet3.png",
+      {name:"Luxury Rug 3", price:600, img:"Luxury/Carpet/luxury_carpet3.png",
+      flippedImg: "Luxury/Carpet/luxury_carpet3.png",
+      rearImg:"Luxury/Carpet/luxury_carpet3.png",
+      rearImgF:"Luxury/Carpet/luxury_carpet3.png",
       width:350
 
       }
@@ -419,66 +419,66 @@ const furnitureData = {
 
   paintings: {
     Basic: [
-      {name:"Basic Painting 1", price:80, img: "Images/Basic/Paintings/basic_painting1.png",
-       flippedImg: "Images/Basic/Paintings/basic_painting1-f.png",
-       rearImg: "Images/Basic/Paintings/basic_painting1.png",
-       rearImgF: "Images/Basic/Paintings/basic_painting1-f.png",
+      {name:"Basic Painting 1", price:80, img: "Basic/Paintings/basic_painting1.png",
+       flippedImg: "Basic/Paintings/basic_painting1-f.png",
+       rearImg: "Basic/Paintings/basic_painting1.png",
+       rearImgF: "Basic/Paintings/basic_painting1-f.png",
        width: 150
       },
-      {name:"Basic Painting 2", price:80, img: "Images/Basic/Paintings/basic_painting2.png",
-       flippedImg: "Images/Basic/Paintings/basic_painting2-f.png",
-       rearImg: "Images/Basic/Paintings/basic_painting2.png",
-       rearImgF: "Images/Basic/Paintings/basic_painting2-f.png",
+      {name:"Basic Painting 2", price:80, img: "Basic/Paintings/basic_painting2.png",
+       flippedImg: "Basic/Paintings/basic_painting2-f.png",
+       rearImg: "Basic/Paintings/basic_painting2.png",
+       rearImgF: "Basic/Paintings/basic_painting2-f.png",
        width: 150
       },
-      {name:"Basic Painting 3", price:80, img: "Images/Basic/Paintings/basic_painting3.png",
-       flippedImg: "Images/Basic/Paintings/basic_painting3-f.png",
-       rearImg: "Images/Basic/Paintings/basic_painting3.png",
-       rearImgF: "Images/Basic/Paintings/basic_painting3-f.png",
+      {name:"Basic Painting 3", price:80, img: "Basic/Paintings/basic_painting3.png",
+       flippedImg: "Basic/Paintings/basic_painting3-f.png",
+       rearImg: "Basic/Paintings/basic_painting3.png",
+       rearImgF: "Basic/Paintings/basic_painting3-f.png",
        width: 100
 
       }
     ],
 
     Standard: [
-      {name:"Standard Painting 1", price: 180, img: "Images/Standard/Paintings/Standard_painting1.png",
-        flippedImg:"Images/Standard/Paintings/Standard_paintings1-f.png",
-        rearImg: "Images/Standard/Paintings/Standard_painting1.png",
-        rearImgF: "Images/Standard/Paintings/Standard_painting1-f.png",
+      {name:"Standard Painting 1", price: 180, img: "Standard/Paintings/Standard_painting1.png",
+        flippedImg:"Standard/Paintings/Standard_paintings1-f.png",
+        rearImg: "Standard/Paintings/Standard_painting1.png",
+        rearImgF: "Standard/Paintings/Standard_painting1-f.png",
         width:250
       },
-      {name: "Standard Painting 2", price: 180, img: "Images/Standard/Paintings/Standard_painting2.png",
-        flippedImg:"Images/Standard/Paintings/Standard_paintings2-f.png",
-        rearImg: "Images/Standard/Paintings/Standard_painting2.png",
-        rearImgF: "Images/Standard/Paintings/Standard_painting2-f.png",
+      {name: "Standard Painting 2", price: 180, img: "Standard/Paintings/Standard_painting2.png",
+        flippedImg:"Standard/Paintings/Standard_paintings2-f.png",
+        rearImg: "Standard/Paintings/Standard_painting2.png",
+        rearImgF: "Standard/Paintings/Standard_painting2-f.png",
         width:100
       },
-      {name: "Standard Painting 3", price: 180, img: "Images/Standard/Paintings/Standard_painting3.png",
-        flippedImg:"Images/Standard/Paintings/Standard_paintings3-f.png",
-        rearImg: "Images/Standard/Paintings/Standard_painting3.png",
-        rearImgF: "Images/Standard/Paintings/Standard_painting3-f.png",
+      {name: "Standard Painting 3", price: 180, img: "Standard/Paintings/Standard_painting3.png",
+        flippedImg:"Standard/Paintings/Standard_paintings3-f.png",
+        rearImg: "Standard/Paintings/Standard_painting3.png",
+        rearImgF: "Standard/Paintings/Standard_painting3-f.png",
         width:125
 
       }
     ],
 
     Luxury: [
-      {name:"Luxury Painting 1", price: 400, img: "Images/Luxury/Paintings/luxury_painting1.png",
-        flippedImg:"Images/Luxury/Paintings/luxury_painting1-f.png",
-        rearImg: "Images/Luxury/Paintings/luxury_painting1.png",
-        rearImgF: "Images/Luxury/Paintings/luxury_painting1-f.png",
+      {name:"Luxury Painting 1", price: 400, img: "Luxury/Paintings/luxury_painting1.png",
+        flippedImg:"Luxury/Paintings/luxury_painting1-f.png",
+        rearImg: "Luxury/Paintings/luxury_painting1.png",
+        rearImgF: "Luxury/Paintings/luxury_painting1-f.png",
         width:250
       },
-      {name:"Luxury Painting 2", price: 400, img: "Images/Luxury/Paintings/luxury_painting2.png",
-        flippedImg:"Images/Luxury/Paintings/luxury_painting2-f.png",
-        rearImg: "Images/Luxury/Paintings/luxury_painting2.png",
-        rearImgF: "Images/Luxury/Paintings/luxury_painting2-f.png",
+      {name:"Luxury Painting 2", price: 400, img: "Luxury/Paintings/luxury_painting2.png",
+        flippedImg:"Luxury/Paintings/luxury_painting2-f.png",
+        rearImg: "Luxury/Paintings/luxury_painting2.png",
+        rearImgF: "Luxury/Paintings/luxury_painting2-f.png",
         width:250
       },
-      {name:"Luxury Painting 3", price: 400, img: "Images/Luxury/Paintings/luxury_painting3.png",
-        flippedImg:"Images/Luxury/Paintings/luxury_painting3-f.png",
-        rearImg: "Images/Luxury/Paintings/luxury_painting3.png",
-        rearImgF: "Images/Luxury/Paintings/luxury_painting3-f.png",
+      {name:"Luxury Painting 3", price: 400, img: "Luxury/Paintings/luxury_painting3.png",
+        flippedImg:"Luxury/Paintings/luxury_painting3-f.png",
+        rearImg: "Luxury/Paintings/luxury_painting3.png",
+        rearImgF: "Luxury/Paintings/luxury_painting3-f.png",
         width:200
       }      
     ]
