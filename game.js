@@ -321,7 +321,7 @@ const furnitureData = {
       flippedImg: "Luxury/Lighting/luxury_lighting1-f.png",
       rearImg: "Luxury/Lighting/luxury_ighting1.png",
       rearImgF: "Luxury/Lighting/luxury_lighting1-f.png",
-      width:200
+      width:300
       },
       {name:"Luxury Lighting 2", price:500, img:"Luxury/Lighting/luxury_lighting2.png",
       flippedImg: "Luxury/Lighting/luxury_lighting2.png",
