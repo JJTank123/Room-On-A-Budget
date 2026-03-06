@@ -83,10 +83,17 @@ body {
 /* ROOM CONTAINER */
 
 #roomCanvas {
+  position: relative;
+
   width: 90%;
   height: 90%;
-  position: relative;
-  top: -70px;   /* moves room UP */
+
+  max-width: 900px;   /* prevents giant scaling */
+  max-height: 600px;
+
+  margin: auto;
+
+  top: -20px; /* optional: small adjustment */
 }
 
 
