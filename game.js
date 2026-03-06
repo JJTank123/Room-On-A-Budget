@@ -251,20 +251,20 @@ const furnitureData = {
       flippedImg:"Luxury/Entertainment/luxury_entertainment1-f.png",
       rearImg: "Luxury/Entertainment/luxury_entertainment1.png",
       rearImgF: "Luxury/Entertainment/luxury_entertainment1-f.png",
-      width:250
+      width:300
     },
       {name:"Luxury Entertainment System 2", price:1200, img:"Luxury/Entertainment/luxury_entertainment2.png",
       flippedImg: "Luxury/Entertainment/luxury_entertainment2-f.png",
       rearImg: "Luxury/Entertainment/luxury_entertainment2.png",
       rearImgF: "Luxury/Entertainment/luxury_entertainment2-f.png",
-      width:250
+      width:300
     },
 
       {name:"Luxury Entertainment System 3", price:1200, img:"Luxury/Entertainment/luxury_entertainment3.png",
       flippedImg: "Luxury/Entertainment/luxury_entertainment3-f.png",
       rearImg: "Luxury/Entertainment/luxury_entertainment3.png",
       rearImgF: "Luxury/Entertainment/luxury_entertainment3-f.png",
-      width:250
+      width:300
     },
 
     ]
