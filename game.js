@@ -297,21 +297,21 @@ const furnitureData = {
         flippedImg: "Standard/Lighting/Standard_Lighting1-f.png",
         rearImg: "Standard/Lighting/Standard_Lighting1.png",
         rearImgF: "Standard/Lighting/Standard_Lighting1-f.png",
-        width:200
+        width:150
       },
 
       {name:"Standard Lighting 2", price: 250, img:"Standard/Lighting/Standard_Lighting2.png",
         flippedImg: "Standard/Lighting/Standard_Lighting2-f.png",
         rearImg: "Standard/Lighting/Standard_Lighting2.png",
         rearImgF: "Standard/Lighting/Standard_Lighting2-f.png",
-        width:200
+        width:150
       },
 
       {name:"Standard Lighting 3", price: 250, img:"Standard/Lighting/Standard_Lighting3.png",
         flippedImg: "Standard/Lighting/Standard_Lighting3.png",
         rearImg: "Standard/Lighting/Standard_Lighting3.png",
         rearImgF: "Standard/Lighting/Standard_Lighting3.png",
-        width:200
+        width:125
       }      
 
     ],
@@ -442,13 +442,13 @@ const furnitureData = {
         width:250
       },
       {name: "Standard Painting 2", price: 180, img: "Standard/Paintings/Standard_painting2.png",
-        flippedImg:"Standard/Paintings/Standard_paintings2-f.png",
+        flippedImg:"Standard/Paintings/Standard_painting2-f.png",
         rearImg: "Standard/Paintings/Standard_painting2.png",
         rearImgF: "Standard/Paintings/Standard_painting2-f.png",
         width:100
       },
       {name: "Standard Painting 3", price: 180, img: "Standard/Paintings/Standard_painting3.png",
-        flippedImg:"Standard/Paintings/Standard_paintings3-f.png",
+        flippedImg:"Standard/Paintings/Standard_painting3-f.png",
         rearImg: "Standard/Paintings/Standard_painting3.png",
         rearImgF: "Standard/Paintings/Standard_painting3-f.png",
         width:125
